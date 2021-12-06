@@ -1,0 +1,9 @@
+/NAMESPACE
+/man/
+!/man/nngd-package.Rd
+/R/RcppExports.R
+/src/RcppExports.cpp
+/src/*.o
+/src/*.so
+.RData
+.Rhistory
