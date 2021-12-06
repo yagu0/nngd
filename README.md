@@ -9,8 +9,8 @@ wget https://raw.githubusercontent.com/Rookfighter/knn-cpp/master/include/knncpp
 
 ## Usage
 
-roxygenize(".")
-R CMD INSTALL .
-library(nngd)
-?nng
-?ectd
+roxygenize(".") <br>
+R CMD INSTALL . <br>
+library(nngd) <br>
+?nng <br>
+?ectd <br>
