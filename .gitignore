@@ -1,5 +1,5 @@
 /NAMESPACE
-/man/
+/man/*
 !/man/nngd-package.Rd
 /R/RcppExports.R
 /src/RcppExports.cpp
