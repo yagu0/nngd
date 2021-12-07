@@ -11,7 +11,7 @@
 #' @export
 ectd <- function(o, similarity=function(x) 1, inf.replace=TRUE)
 {
-  if (!igraph::is_directed(o$graph))
+  if (igraph::is_directed(o$graph))
     stop("Directed graph case unimplemented yet")
   n <- igraph::vcount(o$graph)
   E <- igraph::as_edgelist(o$graph, names=FALSE)
