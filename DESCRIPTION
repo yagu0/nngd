@@ -1,8 +1,9 @@
+Encoding: UTF-8
 Package: nngd
 Type: Package
 Title: Compute distances based on the nearest-neighbors graph.
-Version: 1.0
-Date: 2021-12-06
+Version: 1.0.1
+Date: 2025-01-16
 Author: Benjamin Auder <benjamin.auder@universite-paris-saclay.fr> [aut,cre]
 Maintainer: Benjamin Auder <benjamin.auder@universite-paris-saclay.fr>
 Description: Only two functions for now. nng() builds the nearest-neighbors graph,
@@ -11,4 +12,4 @@ Description: Only two functions for now. nng() builds the nearest-neighbors grap
 License: MIT + file LICENSE
 Imports: Rcpp, RcppEigen, igraph, pracma
 LinkingTo: Rcpp, RcppEigen
-RoxygenNote: 7.1.2
+RoxygenNote: 7.3.2
